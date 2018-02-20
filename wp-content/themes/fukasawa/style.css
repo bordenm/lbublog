@@ -732,24 +732,21 @@ body a,
 	position: relative;
 }
 
-/* ---- evan's code ----
-.type-post .post .featured-media img {
-	display: block;
-	width: 75%;
-	height: auto;
-	margin: 0 auto;
-}
-*/
-
 .featured-media a,
 .featured-media iframe,
-.featured-media object { display: block; }
+.featured-media object,
+.featured-media img {
+  display: block;
+}
 
 .featured-media img {
-	display: block;
 	width: 100%;
 	height: auto;
 	margin: 0 auto;
+}
+
+.type-post .featured-media img {
+	width: 75%;
 }
 
 /* .posts .format-standard .featured-media:hover img,       //  this is the inage hover-zoom  //
